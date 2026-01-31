@@ -1,0 +1,14 @@
+# APK build artifacts
+decompiled_apk/
+smali_out/
+*.keystore
+*_unsigned.apk
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
