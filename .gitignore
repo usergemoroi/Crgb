@@ -1,8 +1,11 @@
 # APK build artifacts
 decompiled_apk/
+apk_decompiled/
 smali_out/
+jadx_output/
 *.keystore
 *_unsigned.apk
+*_Test.apk
 
 # IDE files
 .idea/
@@ -12,3 +15,6 @@ smali_out/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Temporary build files
+release.keystore
